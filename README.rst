@@ -11,7 +11,7 @@ Parts
 
   .. image:: https://github.com/m3y54m/esp32-ov7670-nokia5110/blob/main/Parts/esp32-lolin32.png?raw=true
     :alt: LOLIN32 ESP32-based board
-  
+
 - OV7670 camera module
 
   .. image:: https://github.com/m3y54m/esp32-ov7670-nokia5110/blob/main/Parts/ov7670-camera.jpg?raw=true
@@ -22,7 +22,7 @@ Parts
   
   .. image:: https://github.com/m3y54m/esp32-ov7670-nokia5110/blob/main/Parts/nokia-5110-lcd.jpg?raw=true
     :alt: Nokia 5110 LCD module
-	:width: 400
+    :width: 400
 
 Instructions
 -------------
