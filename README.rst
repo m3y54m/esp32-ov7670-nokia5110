@@ -15,12 +15,14 @@ Parts
 - OV7670 camera module
 
   .. figure:: https://github.com/m3y54m/esp32-ov7670-nokia5110/blob/main/Parts/ov7670-camera.jpg?raw=true
-  :alt: OV7670 camera module
+    :alt: OV7670 camera module
+    :width: 400
 
 - Nokia 5110 LCD module
   
   .. figure:: https://github.com/m3y54m/esp32-ov7670-nokia5110/blob/main/Parts/nokia-5110-lcd.jpg?raw=true
     :alt: Nokia 5110 LCD module
+	:width: 400
 
 Instructions
 -------------
