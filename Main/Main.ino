@@ -59,7 +59,7 @@ void displayFrame(unsigned char *frame, int xres, int yres)
     {
       i = (y * xres + x) << 1;
 
-      pixel = convertGrayToBW(frame[i + 1]);
+      pixel = convertGrayToBW(frame[i+1]);
 
       // Each 'lcd_char' draws a 1x8 pixels column on LCD
       bit_index = y % 8;
@@ -76,7 +76,6 @@ void displayFrame(unsigned char *frame, int xres, int yres)
 
 void setup()
 {
-
   camera = new OV7670(
       OV7670::Mode::QQQVGA_RGB565, // QQQVGA_RGB565 = 80 x 60 pixels
       SIOD,
@@ -104,5 +103,8 @@ void loop()
   camera->oneFrame();
 
   // display frame on LCD
+  // Note: LCD resolution is 84 x 48
+  //       The camera QQQVGA output frame resolution is 80 x 60
+  //       The intersection of them becomes 80 x 48
   displayFrame(camera->frame, 80, 48);
 }
