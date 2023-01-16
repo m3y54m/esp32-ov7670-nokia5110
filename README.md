@@ -33,5 +33,4 @@ Open `Main.ino` in Arduino IDE and upload it to your board.
 
 ## Demo
 
-https://user-images.githubusercontent.com/1549028/212587149-4d232135-320b-44dd-8ddd-470db35d795c.mp4
-
+![Demo](https://user-images.githubusercontent.com/1549028/212589497-31f69062-3a6b-4c8e-bcaa-ae69780f44c4.gif)
